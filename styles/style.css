@@ -519,7 +519,6 @@ margin-bottom: 50px;
     height: 30vh;
     background-color: #0f5ff5;
     padding-top: 55px;
-    margin: 50px 0;
 }
 .alexis-about{
     font-size: 18px;
@@ -538,20 +537,22 @@ margin-bottom: 50px;
 /* alexis simpson about end */
 /* CHEAPER PRICE SECTION START */
 .cheaper-price{
-    height: 60vh;
+    height: 75vh;
+    background-color: rgb(240, 255, 238);
 }
 .cheaper-container{
     display: flex;
     justify-content: center;
     gap: 60px;
-    margin-top: 120px;
+    margin-top: 110px;
 }
 .cheaper-box{
     border: 1px solid rgba(175, 171, 171, 0.322);
-    height: 45vh;
+    height: 48vh;
     width: 12%;
     padding: 20px;
     border-radius: 4px;
+    background-color: rgb(245, 229, 229);
 }
 .cheaper-btn{
      text-align: center;
@@ -589,6 +590,7 @@ margin-bottom: 50px;
      margin-top: 60px;
      border-top: 1px solid rgba(100, 99, 99, 0.253);
      border-bottom: 1px solid  rgba(100, 99, 99, 0.253) ;
+    
 }
 .cheaper-list li{
     list-style:none ;
@@ -597,12 +599,65 @@ margin-bottom: 50px;
 }
 .cheaper-list li a{
     text-decoration: none;
-    color: rgb(121, 118, 114);
+    color: rgb(92, 94, 95);
     font-size: 18px;
     line-height: 40px;
+    font-family:none;
 }
 .cheaper-sign-up-btn{
     margin-top: 30px;
 }
 /* CHEAPER PRICE SECTION END */
+/* start up section start */
+
+.start-up-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 20vh;
+    background-image: linear-gradient(56deg, rgb(0, 140, 255),rgb(253, 76, 230));
+}
+.start-up-content{
+    display: flex;
+    align-items: center;
+    height: 20vh;
+}
+.start-up-content img{
+    margin-bottom: 2px;
+   
+}
+.start-up-text{
+    color: wheat;
+    font-weight: 900;
+    font-size: 18px;
+}
+/* start up section end */
+/* all social link section start */
+
+.all-link{
+    height: 25vh;
+    background-color: rgb(59, 59, 59);
+}
+.all-link>.logo{
+    text-align: center;
+    padding: 40px 0;
+}
+.link-container{
+     display: flex;
+     justify-content: center;
+     gap: 12px;
+}
+.link-box{
+    width: 43px;
+    height: 43px;
+    padding: 13px;
+    border: 1px solid wheat;
+    color: white;
+    transition: all .4s;
+}
+.link-box:hover{
+    background-color: #bcf044;
+    color: rgb(2, 2, 2);
+}
+/* all social link section  end */
 /* main section end */
