@@ -679,6 +679,7 @@ margin-bottom: 50px;
     border: 1px solid wheat;
     background-color:white;
     padding-top: 24px;
+    border-radius: 14px;
 }
 .form-types{
     width: 80%;
@@ -704,4 +705,18 @@ margin-bottom: 50px;
 } 
 
 /* map-and form section end */
+/* footer section start */
+footer{
+    height: 12vh;
+    background-color: rgb(41, 41, 41);
+}
+footer>span{
+    display: flex;
+    justify-content: center;
+    color: white;
+    height: 100%;
+    align-items: center;
+    font-family: none;
+}
+/* footer section end */
 /* main section end */
